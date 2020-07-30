@@ -1,6 +1,6 @@
 {
   "name": "boilerplate-react-webpack",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "A webpack React starter",
   "repository": "https://github.com/dev-academy-challenges/boilerplate-react-webpack.git",
   "main": "server/index.js",
@@ -11,9 +11,8 @@
     "dev": "run-p dev:client dev:server",
     "dev:client": "webpack --watch",
     "dev:server": "nodemon server",
-    "start": "run-s build server",
+    "start": "node server",
     "build": "webpack",
-    "server": "node server",
     "test": "jest --watchAll"
   },
   "babel": {
